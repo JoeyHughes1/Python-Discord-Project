@@ -5,6 +5,8 @@ from pymongo import MongoClient
 from numpy import transpose
 
 
+// I tried my best to get a for loop to work but there was some obscure error that stopped it from working
+// so I had to do this
 def boardString(board):
     response = ""
     response += "   ".join(list(map(str, board[0]))) + '\n'
